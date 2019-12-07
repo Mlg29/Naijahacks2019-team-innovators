@@ -22,9 +22,9 @@
 - Node, ReactJs,Express, MongoDB
 
 # Benefit
-- Serves as a means of providing revenue for the unemployed
-- Serve as a mean of reducing unemployment in the country
-- Serve as a mean of keeping the Economy Clean
+- Eco-friendly and efficient management of wastes
+- Means of employment to the teeming population of Nigerian youths
+- Attains MDG Target of Ensuring environmental sustainability
 
 
 
