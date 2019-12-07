@@ -25,6 +25,7 @@
 - Eco-friendly and efficient management of wastes
 - Means of employment to the teeming population of Nigerian youths
 - Attains MDG Target of Ensuring environmental sustainability
+- Reduce the number of communal diseases caused of inefficient waste management
 
 
 
