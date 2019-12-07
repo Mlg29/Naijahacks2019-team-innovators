@@ -21,6 +21,7 @@
 
 Clone the repository
 git clone https://github.com/Mlg29/Naijahacks2019-team-innovators.git
+
 Install all dependencies
 Using yarn
 
