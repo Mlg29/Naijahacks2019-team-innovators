@@ -20,7 +20,7 @@
 # How to setup project and run locally
 
 Clone the repository
-git clone 
+git clone https://github.com/Mlg29/Naijahacks2019-team-innovators.git
 Install all dependencies
 Using yarn
 
