@@ -1,0 +1,46 @@
+Arguments: 
+  /home/sirsuccess/.volta/tools/image/node/10.16.3/6.9.0/bin/node /home/sirsuccess/.volta/tools/image/yarn/1.17.3/bin/yarn.js
+
+PATH: 
+  /home/sirsuccess/.volta/tools/image/node/10.16.3/6.9.0/bin:/home/sirsuccess/.volta/tools/image/yarn/1.17.3/bin:/home/sirsuccess/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/Resources/bin:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/IBM/Cloud/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/kanua/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kanua/AppData/Roaming/npm:/mnt/c/Users/kanua/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/cygwin64/bin:/mnt/c/Exercism:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/kanua/AppData/Local/Yarn/bin:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cookie-parser: ETIMEDOUT
+      at Timeout._onTimeout (/home/sirsuccess/.volta/tools/image/yarn/1.17.3/lib/cli.js:141124:19)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+      at Timer.processTimers (timers.js:223:10)
+
+npm manifest: 
+  {
+    "name": "naijahacks2019-team-innovators",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "jade": "~1.11.0",
+      "morgan": "~1.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
