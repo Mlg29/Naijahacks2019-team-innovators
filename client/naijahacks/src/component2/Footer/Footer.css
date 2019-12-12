@@ -1,0 +1,54 @@
+
+
+.footer {
+    margin-top: 10%;
+}
+.footer-header {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 5%;
+}
+.footer-paragraph {
+    color: grey;
+    line-height: 35px;
+}
+.footer-input {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-name {
+    width: 300px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+#footer-email {
+    width: 300px;
+}
+#footer-textarea {
+    width: 615px;
+}
+.button {
+    background: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    color: rgb(51, 49, 49);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .footer-input {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #footer-name {
+        width: 100%;
+    }
+    #footer-email {
+        width: 100%;
+    }
+    #footer-textarea {
+        width: 100%;
+    }
+}
