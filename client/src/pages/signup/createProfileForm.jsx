@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 // import axios from 'axios';
 import { Alert } from "reactstrap";
+import { Link } from "react-router-dom";
 
 export default function CreateForm() {
   const initialDetails = {
@@ -28,8 +29,7 @@ export default function CreateForm() {
 
   const handleSubmit = async e => {
     e.preventDefault();
-    const url =
-      "http://localhost:5000/users";
+    const url = "http://localhost:5000/users";
 
     try {
       const response = await fetch(url, {
@@ -45,7 +45,7 @@ export default function CreateForm() {
       setResponse("account created");
     } catch (error) {
       console.error("Error:", error);
-      alert("Oop! something happen, try again")
+      alert("Oop! something happen, try again");
       // setResponse(error);
     }
   };
@@ -178,9 +178,11 @@ export default function CreateForm() {
         </div>
         <div>
           <Button type="submit">Join Now</Button>
-          <button className="text-success btn" type="button">
-            Login
-          </button>
+          <Link to="/login">
+            <button className="text-success btn" type="button">
+              Login
+            </button>
+          </Link>
         </div>
       </form>
     </>
