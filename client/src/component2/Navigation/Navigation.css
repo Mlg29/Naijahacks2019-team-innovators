@@ -1,10 +1,15 @@
 
-
+.navbar{
+    z-index: 10005888;
+    background-color: red;
+    opacity: 1;
+}
 .nav-bg {
-    background-color: white;
+    background-color: #000;
     padding-left: 30%;
     padding: 20px;
-    opacity: 1;   
+    /* opacity: ;    */
+    
 }
 .logo1 {
     margin-left: 15rem;
@@ -23,6 +28,7 @@
     border: 5px solid white;
     width: 255px;
     margin-left: 40%;
+    
 }
 
 @media screen and (max-width: 1000px) {

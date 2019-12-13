@@ -32,7 +32,7 @@ function Navigation() {
                 <Link to="/our-food" style={{color: "grey", fontWeight: "bold"}} >Composition</Link>
                 </li>
                 <li className="nav-item pr-4">
-                <Link to="/signup" style={{color: "grey", fontWeight: "bold"}} >Create Account</Link>
+                <Link to="/signup"  > <button className="btn btn-success">Create Account</button> </Link>
                 </li>
                 
                 

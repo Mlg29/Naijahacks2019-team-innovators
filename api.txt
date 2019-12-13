@@ -2,6 +2,7 @@
 USER FIELDS
     firstName
     lastName
+    phone
     username
     address
     city
