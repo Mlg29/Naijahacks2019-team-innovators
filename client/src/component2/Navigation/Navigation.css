@@ -1,0 +1,42 @@
+
+
+.nav-bg {
+    background-color: white;
+    padding-left: 30%;
+    padding: 20px;
+    opacity: 1;   
+}
+.logo1 {
+    margin-left: 15rem;
+}
+.button {
+    background: rgb(16, 199, 190);
+    border-radius: 30px;
+    border: none;
+    width: 120px;
+    margin-top: -2px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.nav-header {
+    border: 5px solid white;
+    width: 255px;
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-header {
+        margin-left: 0%;
+        width: 170px;
+        font-size: 25px;
+    }
+    .navbar-light .navbar-toggler {
+        color: white;
+        background-color: white;
+        border: 1px solid white;
+    }
+    .logo1 {
+        margin-left: 0%;
+    }
+}

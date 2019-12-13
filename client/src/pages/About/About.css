@@ -1,0 +1,134 @@
+
+
+.about-header {
+    color: grey;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+.about-div-image {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
+.about-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.about-div-header {
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+.about-div-paragraph {
+    color: grey;
+    font-size: 15px;
+    line-height: 30px;
+}
+.about-image {
+    width: 500px;
+    margin-left: 15%;
+}
+.about-div-div {
+    width: 300px;
+    margin-left: 10%;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+
+}
+.about-section-header {
+    color: grey;
+    font-size: 25px;
+}
+
+.about-section-paragraph {
+    color: grey;
+    font-size: 15px;
+    line-height: 30px;
+}
+.about-section-div {
+    width: 400px;
+    margin-left: 10%;
+}
+.about-section-image {
+    margin-left: 20%;
+}
+.about-impact {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.about-impact-header {
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.about-impact-paragraph {
+    color: grey;
+    line-height: 30px;
+}
+
+.about-impact-div {
+    margin-left: 10%;
+    width: 500px;
+}
+
+.about-impact-div2 {
+    margin-top: 4%;
+    width: 500px;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-header {
+        margin-top: 40%;
+    }
+    .about-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+    .about-image {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-section-div {
+        width: 100%;
+    }
+    .about-section-paragraph {
+        width: 100%;
+        margin-left: 0%;
+        
+    }
+    .about-section-image {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .about-impact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-impact-div {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .about-impact-div2 {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .about-impact-paragraph {
+        width: 100%;
+        margin-left: 2%;
+    }
+}

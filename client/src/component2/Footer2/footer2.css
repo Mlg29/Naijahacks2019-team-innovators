@@ -1,0 +1,18 @@
+.copy-right-paragraph {
+    margin: 10px;
+    font-size: 15px;
+    color: lightgrey;
+}
+.copy-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding: 20px;
+    color: white;
+    background: orange;
+}
+.copy-right-icons {
+    margin-top: 10px;
+    margin-left: 10px;
+}
