@@ -10,6 +10,7 @@ import About from './pages/About'
 import Recycling from './pages/Recycling'
 import WasteCollection from './pages/Waste-collection'
 import Signup from './pages/signup/createProfile'
+import Login from './pages/Login/Login'
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/Recycling" component={Recycling} /> 
           <Route exact path="/Composting" component={Composting} />
           <Route exact path="/signup" component={Signup} />
+          <Route exact path="/login" component={Login} />
         </Switch>
       </Router>
    
