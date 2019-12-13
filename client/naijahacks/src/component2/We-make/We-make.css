@@ -1,0 +1,41 @@
+
+.we-make {
+    margin-top: 5%;
+    padding: 10px;
+    width: 100%;
+}
+.we-make-header {
+    font-size: 30px;
+    line-height: 45px;
+    color: rgb(107, 103, 103);
+    margin-top: 3%;
+    margin-left: 42%;
+    width: 40%;
+
+}
+
+.we-make-paragraph {
+    line-height: 30px;
+    width: 80%;
+    color: grey;
+}
+
+@media screen and (max-width: 1000px) {
+    .we-make {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .we-make-header {
+       margin-left: 0%;
+       font-size: 35px;
+       width: 100%;
+    
+    }
+    .we-make-paragraph {
+        width: 100%;
+    }
+    
+
+}
