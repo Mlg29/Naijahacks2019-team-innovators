@@ -8,7 +8,7 @@ function Navigation() {
     return (
         <div>
 
-            <nav className="navbar fixed-top navbar-expand-lg navbar-light nav-bg">
+            <nav className="navbar navbar-expand-lg navbar-light nav-bg">
             <Link to={"/"} ><img className="logo1" src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576094329/f22ietnqwtslcbasqym1.png" alt="" width="150" height="50" /></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -32,7 +32,10 @@ function Navigation() {
                 <Link to="/our-food" style={{color: "grey", fontWeight: "bold"}} >Composition</Link>
                 </li>
                 <li className="nav-item pr-4">
-                <Link to="/signup"  > <button className="btn btn-success">Create Account</button> </Link>
+                <Link to="/signup"  > <button className="btn btn-success">Sign Up</button> </Link>
+                </li>
+                <li className="nav-item pr-4">
+                <Link to="/login"  > <button className="btn btn-success">Login</button> </Link>
                 </li>
                 
                 
