@@ -38,7 +38,7 @@ const HalfHero = styled.div`
   background-image: linear-gradient(
       to right bottom,
       rgba(45, 47, 72, 0.9),
-      rgba(45, 47, 72, 0.9)
+      rgba(45, 47, 72, 0.6)
     ),
     url(https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576015538/k3qxmf1kmn1oegd0snmd.jpg);
   background-size: cover;
@@ -55,6 +55,7 @@ const HalfHero = styled.div`
 const LoginContent = styled.div`
   flex: 3;
   height: 100%;
+  width:100%
   background: #f2f6fa 0% 0% no-repeat padding-box;
   padding: 60px;
   display: flex;

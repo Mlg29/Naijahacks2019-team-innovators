@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function LoginForm() {
   return (
-    <>
-      <div style={{ marginTop: "20px" }}>
+    <div style={{ margin: "0 auto" }}>
+      <div style={{ marginTop: "20px",}}>
         <h3>Login</h3>
       </div>
       <form>
@@ -16,6 +16,7 @@ export default function LoginForm() {
             id="username"
             name="username"
             autoComplete="username"
+            form-control
           />
         </div>
         <div>
@@ -32,12 +33,12 @@ export default function LoginForm() {
           <Button type="submit">Login</Button>
           <Link to="/signup">
             <button className="text-success btn" type="button">
-              Create Accound
+              Create Account
             </button>
           </Link>
         </div>
       </form>
-    </>
+    </div>
   );
 }
 
