@@ -1,0 +1,52 @@
+
+USER FIELDS
+    firstName
+    lastName
+    phone
+    username
+    address
+    city
+    state
+    email
+    password
+    createdAt
+    updatedAt
+
+HTTP POST /users — Register users.
+HTTP POST /users/login — Allow users to login.
+HTTP GET / users/me — Get user profile.
+HTTP GET / users/email — Get user profile with email address.
+HTTP GET / users — Get all user profile.
+HTTP POST /users/logout —Logout the user.
+HTTP post /users/logoutall — Logout from all devices.
+HTTP PATCH/PUT /users/id —update users.
+HTTP DELETE /users/id — delete users.
+
+
+dispatcher
+    firstName
+    lastName
+    username
+    address
+    city
+    state
+    email
+    isAvailable
+    vehicle
+    password
+    createdAt
+    updatedAt
+
+
+waste fields
+    type
+	desc
+    userID
+    dispatcherID
+    location
+
+HTTP POST /waste — create waste.
+HTTP GET / waste/id — Get single waste.
+HTTP GET / waste — Get all waste.
+HTTP PATCH/PUT /waste/id —update waste.
+HTTP DELETE /waste/id — delete waste.

@@ -6,9 +6,10 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Homepage from './pages/Homepage'
 import Composting from './pages/Composting'
 import About from './pages/About'
-import More from './pages/More'
+// import More from './pages/More'
 import Recycling from './pages/Recycling'
 import WasteCollection from './pages/Waste-collection'
+import Signup from './pages/signup/createProfile'
 
 
 
@@ -22,7 +23,7 @@ function App() {
           <Route exact path="/waste-collection" component={WasteCollection} />
           <Route exact path="/Recycling" component={Recycling} /> 
           <Route exact path="/Composting" component={Composting} />
-          <Route exact path="/more" component={More} />
+          <Route exact path="/signup" component={Signup} />
         </Switch>
       </Router>
    
