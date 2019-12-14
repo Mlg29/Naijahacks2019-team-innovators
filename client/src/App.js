@@ -19,13 +19,13 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/waste-collection" component={WasteCollection} />
-          <Route exact path="/Recycling" component={Recycling} /> 
-          <Route exact path="/Composting" component={Composting} />
-          <Route exact path="/signup" component={Signup} />
-          <Route exact path="/login" component={Login} />
+          <Route exact path="https://naijarecycler.netlify.com/" component={Homepage} />
+          <Route exact path="https://naijarecycler.netlify.com/about" component={About} />
+          <Route exact path="https://naijarecycler.netlify.com/waste-collection" component={WasteCollection} />
+          <Route exact path="https://naijarecycler.netlify.com/Recycling" component={Recycling} /> 
+          <Route exact path="https://naijarecycler.netlify.com/Composting" component={Composting} />
+          <Route exact path="https://naijarecycler.netlify.com/signup" component={Signup} />
+          <Route exact path="https://naijarecycler.netlify.com/login" component={Login} />
         </Switch>
       </Router>
    
