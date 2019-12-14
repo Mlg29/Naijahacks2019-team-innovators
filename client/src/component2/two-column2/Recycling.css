@@ -1,28 +1,28 @@
 
-.recycling {
+.recycling3 {
     margin-top: 10%;
 }
 
-.recycling-header1 {
+.recycling3-header1 {
     color: orange;
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 5%;
 }
 
-.recycling-header2 {
+.recycling3-header2 {
     color: black;
     font-size: 35px;
     line-height: 30px;
     margin-bottom: 5%;
 }
-.recycling-paragraph {
+.recycling3-paragraph {
     color: grey;
     font-size: 15px;
     line-height: 35px;
     margin-bottom: 5%;
 }
-.recycling-button {
+.recycling3-button {
     color: white;
     background: orange;
     border: none;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .recycling-image {
+    .recycling3-image {
         width: 100%;
     }
 }
