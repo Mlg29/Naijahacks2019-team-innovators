@@ -17,8 +17,8 @@ function Navigation() {
                             <Nav.Link href="/about"  style={{color: "grey", fontWeight: "bold", marginLeft: "1rem"}}>About Us</Nav.Link>
                             <Nav.Link href="/waste-collection"  style={{color: "grey", fontWeight: "bold", marginLeft: "1rem"}}>Waste Collection</Nav.Link>
                             <Nav.Link href="/recycling"  style={{color: "grey", fontWeight: "bold", marginLeft: "1rem"}}>Recycling</Nav.Link>
-                            <Nav.Link href="/signup" style={{marginLeft: "1rem"}}><Button className="btn btn-success" variant="outline-success">Sign Up</Button></Nav.Link>
-                            <Nav.Link href="/login" style={{marginLeft: "1rem"}}><Button className="btn btn-success" variant="outline-success">Log In</Button></Nav.Link>                    
+                            <Nav.Link href="/signup" style={{marginLeft: "1rem"}}><Button className="btn btn-success" >Sign Up</Button></Nav.Link>
+                            <Nav.Link href="/login" style={{marginLeft: "1rem"}}><Button className="btn btn-success" >Log In</Button></Nav.Link>                    
                         </Nav>
                         
                     </Navbar.Collapse>
