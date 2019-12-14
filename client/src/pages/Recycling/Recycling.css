@@ -1,0 +1,87 @@
+
+
+.recycling {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 30px;
+    color: grey;
+}
+
+.recycling-div {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.recycling-div2 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.recycling-paragraph1 {
+    font-size: 20px;
+    font-weight: 300;
+}
+.recycling-paragraph1 {
+    line-height: 30px;
+}
+.recycling-div-div2 {
+    width: 30%;
+    margin-left: 10%;
+}
+.sorting {
+    width: 40%;
+}
+.sorting-header {
+    color: orange;
+    font-size: 20px;
+}
+.sorting-paragraph {
+    color: grey;
+    line-height: 30px;
+}
+.recycle {
+    width: 40%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+    .recycling {
+        margin-top: 35%;
+    }
+    .recycling-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .recycling-div-div {
+        width: 100%;
+    }
+    .recycling-div-div2 {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .recycling-image {
+        width: 98%;
+    }
+    .recycling-div2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .sorting {
+        width: 100%;
+    }
+    .recycle {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .sorting-paragraph {
+        display: flex;
+        margin: 0 auto;
+    }
+}
