@@ -11,6 +11,7 @@ import Recycling from './pages/Recycling'
 import WasteCollection from './pages/Waste-collection'
 import Signup from './pages/signup/createProfile'
 import Login from './pages/Login/Login'
+import Navbar from "./component2/Dashboard/Dashboard-nav/admin"
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/Composting" component={Composting} />
           <Route exact path="/signup" component={Signup} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/dashboard" component={Navbar} />
         </Switch>
       </Router>
    
