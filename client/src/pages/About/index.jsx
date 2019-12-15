@@ -31,23 +31,23 @@ function About() {
             <div className="about-section">
                 <div className="about-section-div">
                     <h1 className="about-section-header">How We Work</h1>
-                    <p className="about-section-paragraph">At NaijaRecycler, we have a fleet of orange trucks. One of them will come to your sites to collect all of your waste in bags that we give to you. Then we bring the waste to our sorting sites, where the waste will be sorted into more than 40 waste fractions. The three major sorting categories are organic waste, dry recyclables (paper, plastic, metal and glass) and residual waste. We turn the organic waste into compost at our compost site, which will then sell to farms so that they can grow healthy crops. The dry recyclables are sorted and either processed internally or through one of our recycling partners. As we are able to recycle 95% of the waste we collect, we only take 5% to a landfills (mostly diapers and sanitary towels).</p>
+                    <p className="about-section-paragraph">At NaijaRecycler, we intend to have  a fleet of orange trucks. One of which will come to your sites to collect all of your waste in bags that we give to you. Then we bring the waste to our sorting sites, where the waste will be sorted into more than 40 waste fractions. The three major sorting categories are organic waste, dry recyclables (paper, plastic, metal and glass) and residual waste. We turn the organic waste into compost at our compost site, which will then sell to farms so that they can grow healthy crops. The dry recyclables are sorted and either processed internally or through one of our recycling partners. As we are able to recycle 95% of the waste we collect, we only take 5% to a landfills (mostly diapers and sanitary towels).</p>
                 </div>
 
                 <div>
-                    <img className="about-section-image" src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576015538/hddrwe4snj8fluiyfmyb.webp" alt="" width="700"/>
+                    <img className="about-section-image" src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576344834/ya2zn8hzmmcagawqbkpw.png" alt="" width="700"/>
                 </div>
             </div>
 
             <div className="about-impact">
                 <div className="about-impact-div">
                     <h1 className="about-impact-header">Our Impact</h1>
-                    <p className="about-impact-paragraph">We recycle 95% of the waste we collect – one of the highest recycling rates in the world (the USA only recycle 35%)</p>
-                    <p className="about-impact-paragraph">We manage and recycle more than 1’300 tons of waste per month</p>
-                    <p className="about-impact-paragraph">We save more than 10,000 tons of green house gas emissions annually through our composting and recycling</p>
+                    <p className="about-impact-paragraph">We intend to recycle 95% of the waste we collect – one of the highest recycling rates in the world (the USA only recycle 35%)</p>
+                    <p className="about-impact-paragraph">We intend to manage and recycle more than 1’300 tons of waste per month</p>
+                    <p className="about-impact-paragraph">We intend to save more than 10,000 tons of green house gas emissions annually through our composting and recycling</p>
                 </div>
                 <div className="about-impact-div2">
-                    <p className="about-impact-paragraph">We have created 250 full-time jobs. More than 50% of our       employees are women.
+                    <p className="about-impact-paragraph">We intend to create 250 full-time jobs.
                         Enable farmers to increase their agricultural soil fertility</p>
                 </div>
             </div>
