@@ -5,7 +5,7 @@ import "./footer2.css"
 
 function SecondFooter() {
     return (
-        <div className="copy-right">
+        <div className="copy-right bg-dark">
             <p className="copy-right-paragraph">NaijaRecycler &copy 2019 / All Rights Reserved</p>
                 
             <div>

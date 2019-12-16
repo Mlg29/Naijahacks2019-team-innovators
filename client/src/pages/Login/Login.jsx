@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { Alert } from 'reactstrap';
 
+import Logo from "../../common/logo"
+
 import LoginForm from './LoginForm';
 
 
@@ -10,8 +12,7 @@ export default function LoginPage() {
   return (
     <Container>
       <HalfHero>
-        <ImageHolder>
-        </ImageHolder>
+      <Logo/>
         <p style={{ width: '450px' , fontSize: 40 }}>
         We can make Nigeria a cleaner, healthier place to live by recycling waste into new, usable items.
         </p>
@@ -38,7 +39,7 @@ const HalfHero = styled.div`
   background-image: linear-gradient(
       to right bottom,
       rgba(45, 47, 72, 0.9),
-      rgba(45, 47, 72, 0.6)
+      rgba(45, 47, 72, 0.5)
     ),
     url(https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576015538/k3qxmf1kmn1oegd0snmd.jpg);
   background-size: cover;
@@ -64,7 +65,4 @@ const LoginContent = styled.div`
   align-content: center;
 `;
 
-const ImageHolder = styled.div`
-  width: 190px;
-  height: 50px;
-`;
+

@@ -101,7 +101,7 @@ router.patch("/:id", (req, res) => {
   const userID = req.params.id;
   const userBody = req.body;
 
-  return userModel
+  return User
     .update({ _id: userID }, { $set: userBody })
     .then(user => {
       console.log(user);
@@ -118,7 +118,7 @@ router.patch("/:id", (req, res) => {
 router.delete("/:id", (req, res) => {
   const userID = req.params.id;
 
-  return user
+  return User
     .findByIdAndDelete(userID)
     .then(user => {
       console.log(user);

@@ -1,16 +1,15 @@
-import React from 'react';
-import styled from 'styled-components';
-import CreateForm from './createProfileForm';
+import React from "react";
+import styled from "styled-components";
+import CreateForm from "./createProfileForm";
+import Logo from "../../common/logo";
 
 export default function LoginPage() {
   return (
     <Container>
       <HalfHero>
-        <ImageHolder>
-          <img src="./assets/img/decagon-logo.png" alt="" />
-        </ImageHolder>
-        <p style={{ width: '450px', fontSize: 40 }}>
-        Together, We can make cleaner, healthier Nigeria.
+        <Logo />
+        <p style={{ width: "450px", fontSize: 40 }}>
+          Together, We can make cleaner, healthier Nigeria.
         </p>
       </HalfHero>
       <LoginContent>
@@ -30,16 +29,14 @@ const Container = styled.div`
 `;
 
 const HalfHero = styled.div`
-  
-  
   padding: 60px;
   color: #fff;
   background-image: linear-gradient(
       to right bottom,
       rgba(45, 47, 72, 0.9),
-      rgba(45, 47, 72, 0.9)
+      rgba(45, 47, 72, 0.5)
     ),
-    url(https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576015538/k3qxmf1kmn1oegd0snmd.jpg);
+    url(https://res.cloudinary.com/dtbjhs8a6/image/upload/v1575979267/xg157iczn39aviwt43zp.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;

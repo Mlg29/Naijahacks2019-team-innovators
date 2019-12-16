@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
 
 export default function Shell(props) {
@@ -24,13 +24,15 @@ export default function Shell(props) {
     <Container className="testing">
       <SideBar className={open ? "open" : ""}>
         <ImageContainer>
-          <img
-            src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576094329/f22ietnqwtslcbasqym1.png"
-            alt=""
-            width="150"
-            height="50"
-            alt="Naija recycler logo"
-          />
+          <Link to="/dashboard">
+            <img
+              src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1576094329/f22ietnqwtslcbasqym1.png"
+              alt=""
+              width="150"
+              height="50"
+              alt="Naija recycler logo"
+            />
+          </Link>
         </ImageContainer>
         <MenuList>
           <UL>

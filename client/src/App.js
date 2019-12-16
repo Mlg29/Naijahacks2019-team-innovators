@@ -11,7 +11,8 @@ import Recycling from './pages/Recycling'
 import WasteCollection from './pages/Waste-collection'
 import Signup from './pages/signup/createProfile'
 import Login from './pages/Login/Login'
-import Navbar from "./component2/Dashboard/Dashboard-nav/admin"
+import Dashboard from "./component2/dashboard"
+import User from "./component2/Users/users"
 
 
 
@@ -27,7 +28,12 @@ function App() {
           <Route exact path="/Composting" component={Composting} />
           <Route exact path="/signup" component={Signup} />
           <Route exact path="/login" component={Login} />
-          <Route exact path="/dashboard" component={Navbar} />
+          <Route exact path="/dashboard"><Dashboard/></Route>
+          <Route exact path="/dashboard/users"><Dashboard/></Route>
+          <Route exact path="/dashboard/van"><Dashboard/></Route>
+          <Route exact path="/dashboard/waste"><Dashboard/></Route>
+          <Route exact path="/dashboard/dispatch"><Dashboard/></Route>
+          <Route exact path="/dashboard/profile"><Dashboard/></Route>
         </Switch>
       </Router>
    
