@@ -9,16 +9,19 @@
     "start": "node src/app.js",
     "server": "nodemon src/app.js",
     "client": "npm start --prefix client",
+    "build": "grunt dist",
+    "postinstall": "./node_modules/bower/bin/bower install && npm run build",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":
-      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "bower": "^1.8.8",
     "concurrently": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "grunt": "^1.0.4",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.7",
     "mongoose": "^5.7.5",
