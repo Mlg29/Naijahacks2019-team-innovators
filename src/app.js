@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 /**
  * Read environment variables
  */
-require('dotenv').config();
+require("dotenv").config();
 
 /**
  * cross origin resort sharing
@@ -30,12 +30,12 @@ app.use("/wastes", wasteRouter);
 app.use("/vehicles", vehicleRouter);
 
 // Server static assets if in production
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === "production") {
   // Set static folder
-  app.use(express.static('client/build'));
+  app.use(express.static("client/build"));
 
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
   });
 }
 
@@ -48,7 +48,7 @@ var server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5000;
 
 server.listen(port);
 server.on("error", err => {
